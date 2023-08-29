@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- meta viewport tag needed to make site responsive on mobile devices https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>WCC Portfolio - Demo Page</title>
+
+        <!-- including for some global styling -->
+        <link rel="stylesheet" href="../css/style.css">
+
+    </head>
+    <body>
+        <!-- if you have sub-pages think about adding a simple back button -->
+        <nav>
+            <a href="../">HOME</a>
+        </nav>
+        <header class="documentation-header">
+            <section class="center-text">
+                <h1>ENDLESS</h1>
+                <h2>JIESHAN LI</h6>
+                <p>This project further explores the process of creating a game using P5.js that uses GyrOSC to control the movement of the ball. The player controls the ball by jumping and dodging objects to get higher scores and faster speeds.</p> 
+            </section>
+        </header>
+
+        <main class="documentation-page">
+            <section>
+                <div class="responsive-video centered-content">
+                   <iframe title="vimeo-player" src="https://vimeo.com/857700577?share=copy" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+                </div>
+            </section>
+            <section>
+                <h3>Introduction</h3>
+                <p>The game aims to provide a fun and challenging way to challenge oneself and at the same time explore the potential of gyroscopic control. The code implements a 3D game based on GyrOSC data, where the player can move and interact with the ball by tilting the phone to manipulate it. A new gameplay feature has been added to collect food and gifts to increase distance or gain 10 seconds of protection in order to avoid enemies and score higher.</p>
+            </section>
+            <section>
+                <h3>Concept and Background Research</h3>
+
+                <p>This project was inspired by an exploration of innovative ways to interact with technology. The use of GyrOSC as a control mechanism provides a unique and intuitive way to manipulate the movement of a ball in a game. The game is also influenced by the endless runner genre, which requires the player to obtain a high score by traversing obstacles.</p>
+                <p>The transformation of objectively unrealistic game scenarios into subjectively immersive experiences stems from human imagination and fantasy. Games as an interactive and dynamic medium allow designers to accurately represent the cause and effect of real-world changes. Crawford argues that this interactivity is a key factor in the appeal of video games (Kasvi, 2000)</p>
+                <p>In terms of background research, this involved an examination of various resources related to P5.js and GyrOSC-based games.P5.js is recognised as a popular tool used to create web-based interactive and creative projects, while GyrOSC are used as a control mechanism for games and other interactive experiences. In addition, game design and mechanics were studied to ensure the creation of engaging and challenging game experiences.</p>
+                <!-- if you have a full width image try make it not too tall -->
+               <!-- <img src="../assets/images/repeating-diagonal-lines-strip.jpeg"/> -->
+                
+            </section>
+            <section>
+                <h3>Technical Implementation</h3>
+
+                <!-- example of styling for three images, you can write your own styling -->
+                
+                <p>The technical implementation of the project involves several different parts. Firstly, the P5.js library is used to create the game and handle the rendering and animation of various game elements. Secondly, using the gyrosc function of the mobile device, the player can control the movement of the ball by tilting the mobile phone. In addition, jumping of the ball is achieved by shaking the mobile phone.</p>
+                <p>Consistent with Crawford's view, a game is a closed formal system that subjectively represents a subset of reality. The carefully designed rules of the game contain all the contingencies that may be encountered (Kasvi, 2000).
+                <p>In terms of design decisions, the game was designed as an endless runner style, where the player traverses obstacles to achieve the highest score. Features such as acceleration and jumping were also incorporated to increase excitement and extend gameplay time. The area of improvement lies in the overall game mechanics. While the mechanics of Endless Runner are well suited to the gyrosc control scheme, there is room for more variation in terms of obstacles and power-ups. Specifically, the hope is to add more types of obstacles, hazards, and energy and rewards that players can collect.</p>
+                <p>Based on an existing project, I introduced the concept of coloured gift blobs. Upon collision, these gifts give the player a 200 distance boost or a 10 second protection. During the protection time, the ball will not be affected by barriers.</p>
+                <p>One of the challenges I encountered during the implementation of the project was ensuring the responsiveness and accuracy of the gyrosc controls. This needed to be done by experimenting with different settings and sensitivity levels to find the best balance between responsiveness and accuracy. Another challenge was that when connecting to certain public networks, the reception of gyrosc data could be unstable, causing the connection to fail.</p>
+                <p>Overall, I am satisfied with the technical implementation of the project and believe it provides users with an immersive and innovative gaming
+                    experience.</p>
+                <!-- example of styling for three images, you can write your own styling -->
+                <div class="flex-container flex-basis-half">
+                    <div class="flex-item">
+                        <img src="../assets/images/IMG_8871.png"/>
+                    </div>
+                    
+                </div>
+
+                
+         
+            </section>
+            <section>
+                <h3>Reflection and Future Development</h3>
+                <p>In reflecting on the development process and the final product of the gyroscope-controlled game, there were several areas that i felt went well, and others that i identified as potential areas for improvement.</p>
+                <p>One aspect of the project that i was particularly happy with was the incorporation of the gyroscope as a control mechanism. It provided a unique and engaging way to control the movement of the ball, and allowed for a level of interactivity that wouldn't have been possible with traditional touch or button-based controls. Additionally, i felt that the endless runner game mechanics were well-suited to the gyroscope control scheme, and provided a fun and challenging experience for the player.</p>
+                <P>However, one area that i identified as a potential area for improvement was the visual design and aesthetics of the game. While I was able to create a functional and engaging gameplay experience, i felt that the overall visual design could have been more polished and dynamic. Specifically, i would have liked to add more visual effects and feedback, as well as improve the overall color scheme and visual layout.</P>
+                <P>Another area that i identified as a potential area for improvement was the overall gameplay mechanics. While the endless runner game mechanics were well-suited to the gyroscope control scheme, ii felt that there could have been more variety in the obstacles and power-ups. Specifically, i would have liked to add more types of obstacles and hazards, as well as more power-ups and bonuses that the player can collect.</P>
+                <P>Looking to future development, i believe that there are several directions that this project could be taken in order to further explore the potential of gyroscope-controlled games. One potential avenue for development would be to experiment with different types of gameplay mechanics and control schemes. For example, i could explore the use of the gyroscope in more complex or puzzle-based games, where the player would need to manipulate objects or solve puzzles using the gyroscope.</P>
+                <P>Another area of potential development would be to further explore the social and competitive elements of the game. For example, i could incorporate leaderboards and social sharing capabilities in order to foster competition and engagement among players. Additionally, i could experiment with multiplayer modes, where players could compete against each other in real-time using the gyroscope controls.
+
+                    Overall, i believe that this project provided a strong foundation for future development and exploration in the area of gyroscope-controlled games and interactive experiences. With further development and refinement, i believe that this type of game could provide a unique and engaging gameplay experience for players, and could pave the way for new and innovative uses of gyroscope technology in gaming and beyond.
+                    </P>
+            </section>
+            <section>
+                <h3>References</h3>
+                <ul>
+                    <li>P5.js website: https://p5js.org/
+                        Using the Gyroscope in Web Applications: https://developers.google.com/web/fundamentals/native-hardware/device-orientation/
+                        Endless Runner Games: https://gamedevelopment.tutsplus.com/articles/create-an-endless-runner-game-in-unity-using-c--cms-29943
+                        </li>
+                    <li>Kasvi, J., 2000. Not just fun and games. Internet games as a training medium. Cosiga-Learning with Computerised Simulation Games, pp.23-34.</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <!-- normally information like contact details etc  -->
+            <!-- read more about semantic HTML https://www.w3schools.com/html/html5_semantic_elements.asp -->
+            
+         </footer>
+    </body>
+</html>
